@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.2;
+}
+img {
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+
+.text-color {
+  color: #b88e2f;
+}
+.text-gray {
+  color: #aaa;
+}
+.btn-custom {
+  display: inline-block;
+  padding: 12px 28px;
+  color: #fff;
+  background: #b88e2f;
+  border: 1px solid #b88e2f;
+  cursor: pointer;
+}
+.btn-outline-custom {
+  display: inline-block;
+  padding: 12px 28px;
+  color: #b88e2f;
+  background: transparent;
+  border: 1px solid #b88e2f;
+  cursor: pointer;
+}
+
+.btn-custom:hover,
+.btn-outline-custom:hover {
+  opacity: 0.7;
+}
+#navbar-area .nav-link:hover {
+  border-bottom: 3px solid #b88e2f;
+}
+/* Navbar  */
+.navbar {
+  background: #fff !important;
+}
+.navbar img {
+  width: 32px;
+}
+.navbar-brand {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.navbar-text a {
+  padding: 10px;
+}
+
+.banner-1 {
+  background: url("../img/banner-1.png") no-repeat center center/cover;
+}
+.banner-2 {
+  background: url("../img/Banner-2.png") no-repeat center center/cover;
+}
+.banner-3 {
+  background: url("../img/Banner-3.png") no-repeat center center/cover;
+}
+
+.bg-color {
+  background: #fff3e3;
+}
+
+#range-area img {
+  width: 100%;
+}
+
+#products-area .card:hover {
+  opacity: 0.8;
+}
+
+#setup-area article {
+  /* display: inline-block; */
+  width: 20%;
+  float: left;
+  padding: 10px;
+}
+#setup-area .img-vertical {
+  width: 100%;
+}
+#setup-area .img-horizonal {
+  height: 100%;
+}
+#setup-area img {
+  vertical-align: middle;
+}
+
+.clr-fix {
+  clear: both;
+}
+
+#footer-area h3,
+#footer-area h5 {
+  margin-bottom: 1.8rem;
+}
+
+#footer-area h5 {
+  color: dimgrey;
+}
+
+#footer-area a {
+  display: block;
+  margin: 1.5rem 0;
+  text-decoration: none;
+  color: #333;
+}
+#footer-area a:hover {
+  color: #b17d05;
+}
+
+#footer-area input {
+  height: 2rem;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  color: #000;
+  border: none;
+  border-bottom: 2px solid #333;
+  background: transparent;
+  margin-top: 2rem;
+}
+#footer-area input[type="submit"]:hover {
+  background: #b88e2f;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #setup-area article {
+    width: 100%;
+    display: block;
+  }
+  #setup-area .img-horizonal {
+    width: 100%;
+  }
+}
